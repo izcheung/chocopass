@@ -1,8 +1,16 @@
 # 🍫 ChocoPass
 
 <img src="./screenshots/Chocopass.png" alt="Start page" width=700>
-
 <img src="./screenshots/PopQuiz.png" alt="Start page" width=700>
+
+## Table of Contents
+
+1. [Summary](#summary)
+2. [Motivation](#motivation)
+3. [Requirements](#requirements)
+4. [Quick Start](#quick-start)
+5. [Game Play](#gameplay)s
+6. [Features](#features)
 
 ## Summary
 
