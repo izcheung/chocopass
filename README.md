@@ -1,26 +1,90 @@
-# ChocoPass
+# 🍫 ChocoPass
 
 ![image](https://github.com/user-attachments/assets/8dd6822d-565b-48fc-8a05-8fe094b2cbc0)
 
 ## Summary
-"ChocoPass" is a command-line, text-based game that features a grid-based environment where a player can move a character in four cardinal directions. The game features a whimsical scenario where a student (the player) desperate to pass the course, must gain the favour of the instructor by collecting 10 of the instructor's favourite chocolates and deliver it to the instructor. 
 
-Along the way, the student will be faced with pop quizzes that are triggered at random. The student will have to advance through 3 levels, each with a different map to reach the instructor. Upon reaching the instructor, the student will be faced with the final test, where depending on the 'level of intelligence' that the student accumulated from the pop quizzes, will be given a number of tries to answer the instructor's questions. If the student successfully answers the three questions, the student passes the course, and if not, will have to start from the beginning.
+"ChocoPass" is a command-line, text-based game where you navigate a multi-level grid, collect chocolates, survive pop quizzes, and try to win over your COMP1510 instructor, Chris. Move your character in four cardinal directions across increasingly challenging levels.
 
-### Motivation
-This game was developed to apply and expand my knowledge of Python in a fun project. From this experience, it helped solidify my knowledge of Python and encouraged me to explore a new Python module, itertools. I learned to apply unit testing to my code and created a comprehensive suite of 95-unit tests to ensure high standards of code quality.
+## Motivation
 
-### Notes
+This game was developed to strengthen my procedural Python skills. Along the way, I experimented with the itertools module, implemented comprehensive unit testing, and built a robust suite of 95+ tests to ensure high code quality.
 
-Meaning of symbols on the map
+## Requirements
 
-| Symbol  | Meaning |
-| ------- | ------- |
-| * | character |
-| # | boundaries |
-| ! | chocolate |
-| C | instructor |
+- Python 3.6+
 
-- The answers for every pop quiz are random. 
-- You advance to level 2 and 3 after collecting 5 and 10 chocolates respectively.
-- The damage power of the pop quizzes increases each level.
+## Quick Start
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/chocopass.git
+cd chocopass
+```
+
+Run the game:
+
+```
+python game.py
+```
+
+Run tests:
+
+```
+python -m pytest unit_tests/
+```
+
+## Gameplay
+
+### Objective
+
+Collect 10 Reese's chocolates and pass Chris's final exam to graduate!
+
+### Controls
+
+```
+[1] North    [2] South    [3] East    [4] West
+```
+
+### Map Symbols
+
+| Symbol | Meaning           |
+| ------ | ----------------- |
+| `*`    | Your character    |
+| `#`    | Walls/obstacles   |
+| `!`    | Reese's chocolate |
+| `C`    | Instructor Chris  |
+
+### Game Mechanics
+
+- **Levels**
+  - **Level 1 (Tech Hub)**: Start collecting chocolates
+  - **Level 2 (Student Lounge)**: After 5 chocolates, quiz damage doubles
+  - **Level 3 (Room 645)**: After 10 chocolates, face Chris in the final exam
+- **Pop Quizzes**: 20% chance of triggering per move, philosophical questions with no right answers (success is random)
+- **Intelligence and HP**: Gain intelligence points for correct answers, lose HP for wrong answers
+- **Final Exam**: Higher intelligence increases chances of passing
+
+## Features
+
+### Comprehensive Testing Suite
+
+- **95+ Unit Tests** ensuring robust code quality that tests every game function
+- **Mock Testing** for random elements and user input
+- **Edge Case Coverage** including boundary conditions and error handling
+
+### Clean Architecture
+
+- **Modular Design**: 20+ well-documented functions with clear responsibilities
+- **Type Hints**: Comprehensive docstrings with parameter descriptions
+- **Error Handling**: Graceful input validation and boundary checking
+
+### Python Libraries & Modules
+
+- **Random Module**: Sophisticated probability systems and random sampling
+- **Itertools**: Creative use for string repetition and combinations
+- **Dictionaries & Lists**: Efficient game state management and coordinate handling.
+
+🥚 Easter egg -
+Inspired by my COMP1510 class, where pop quizzes strike without warning and every answer _kind of_ feels right… and if you haven’t guessed already, my instructor has a soft spot for Reese’s chocolates!
