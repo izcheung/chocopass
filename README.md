@@ -11,6 +11,7 @@
 4. [Quick Start](#quick-start)
 5. [Game Play](#gameplay)
 6. [Features](#features)
+7. [Testing](#testing)
 
 ## Summary
 
@@ -37,12 +38,6 @@ Run the game:
 
 ```
 python game.py
-```
-
-Run tests:
-
-```
-python -m unittest discover -s unit_tests
 ```
 
 ## Gameplay
@@ -95,6 +90,14 @@ Collect 10 Reese's chocolates and pass Chris's final exam to graduate!
 - **Random Module**: Sophisticated probability systems and random sampling
 - **Itertools**: Creative use for string repetition and combinations
 - **Dictionaries & Lists**: Efficient game state management and coordinate handling.
+
+## Testing
+
+Run:
+
+```
+python -m unittest discover -s unit_tests
+```
 
 🥚 Easter egg -
 Inspired by my COMP1510 class, where pop quizzes strike without warning and every answer _kind of_ feels right… and if you haven’t guessed already, my instructor has a soft spot for Reese’s chocolates!
