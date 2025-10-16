@@ -10,7 +10,7 @@
 
 ## Motivation
 
-This game was developed to strengthen my procedural Python skills. Along the way, I experimented with the itertools module, implemented comprehensive unit testing, and built a robust suite of 95+ tests to ensure high code quality.
+This game was developed to strengthen my procedural Python skills. Along the way, I experimented with the itertools module, implemented comprehensive unit testing, and built a robust suite of ~90 tests to ensure high code quality.
 
 ## Requirements
 
@@ -34,7 +34,8 @@ python game.py
 Run tests:
 
 ```
-python -m pytest unit_tests/
+python -m unittest discover -s unit_tests
+
 ```
 
 ## Gameplay
@@ -72,7 +73,7 @@ Collect 10 Reese's chocolates and pass Chris's final exam to graduate!
 
 ### Comprehensive Testing Suite
 
-- **95+ Unit Tests** ensuring robust code quality that tests every game function
+- **~90 Unit Tests** ensuring robust code quality that tests every game function
 - **Mock Testing** for random elements and user input
 - **Edge Case Coverage** including boundary conditions and error handling
 
