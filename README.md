@@ -1,6 +1,8 @@
 # 🍫 ChocoPass
 
-![image](https://github.com/user-attachments/assets/8dd6822d-565b-48fc-8a05-8fe094b2cbc0)
+<img src="./screenshots/Chocopass.png" alt="Start page" width=700>
+
+<img src="./screenshots/PopQuiz.png" alt="Start page" width=700>
 
 ## Summary
 
