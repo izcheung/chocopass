@@ -9,7 +9,7 @@
 2. [Motivation](#motivation)
 3. [Requirements](#requirements)
 4. [Quick Start](#quick-start)
-5. [Game Play](#gameplay)s
+5. [Game Play](#gameplay)
 6. [Features](#features)
 
 ## Summary
